@@ -10,7 +10,7 @@ public class App {
             //* Khởi tạo mảng có kích thước n */
                 int[] arr = new int[n];
             //* Nhập vào từng phần tử trong mảng  */
-                System.out.print("Nhap vao cac phan tu trong mang :");
+                System.out.println("Nhap vao cac phan tu trong mang :");
             for(int i = 0; i < n; i++){
                 System.out.print("Phan tu thu " +(i +1)+": ");
                 arr[i] = scanner.nextInt();
