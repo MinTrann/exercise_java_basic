@@ -8,7 +8,7 @@ System.out.print("Nhap vao so luong phan tu co trong mang : ");
    //* Kiểm tra n phải là số nguyên dương */
         if (n <=  0){
             System.out.println("Vui long nhap mot so nguyen duong !");
-            return;
+            // return;
         }
        int[] arr = new int[n];
        //* Nhập vào các phần tử trong mảng  */
@@ -41,4 +41,3 @@ System.out.print("Nhap vao so luong phan tu co trong mang : ");
             return min;
         }
 }
-
