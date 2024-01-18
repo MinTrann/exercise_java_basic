@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class Bai2 {
     public static void main(String[] args) throws Exception {
            Scanner scanner = new Scanner(System.in);
            System.out.print("Nhap vao mot so bat ki :");

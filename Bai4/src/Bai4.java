@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
-public class App {
+public class Bai4 {
     public static void main(String[] args) throws Exception {
         
             Scanner scanner = new Scanner(System.in);
