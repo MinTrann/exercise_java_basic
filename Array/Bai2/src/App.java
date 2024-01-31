@@ -5,7 +5,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 System.out.print("Nhap vao so luong phan tu co trong mang : ");
    int n = scanner.nextInt();
-   //* Kiểm tra n phải là số nguyên dương */
+   //* Kiểm tra n phải là số nguyên dương */ 
         if (n <=  0){
             System.out.println("Vui long nhap mot so nguyen duong !");
             // return;
