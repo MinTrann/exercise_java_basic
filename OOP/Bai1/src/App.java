@@ -18,7 +18,7 @@ class CanBo {
     }
 
     public String getThongTin() {
-        return "Ho ten: " + hoTen + ",Tuoi: " + tuoi + ",Gioi tinh: " + gioiTinh + ",Diachi: " + diachi;
+        return "Họ tên: " + hoTen + ",Tuổi: " + tuoi + ",Gioi tinh: " + gioiTinh + ",Đại chỉ: " + diachi;
     }
 }
 
@@ -47,7 +47,7 @@ class KySu extends CanBo {
 
     @Override
     public String getThongTin() {
-        return super.getThongTin() + ", Nganh dao  tao: " + nganhDaoTao;
+        return super.getThongTin() + ", Ngành đào tạo: " + nganhDaoTao;
     }
 }
 
@@ -61,7 +61,7 @@ class NhanVien extends CanBo {
 
     @Override
     public String getThongTin() {
-        return super.getThongTin() + ", Cong viec: " + congViec;
+        return super.getThongTin() + ", Công việc: " + congViec;
     }
 }
 
@@ -84,7 +84,7 @@ class QLCB {
                 return;
             }
         }
-        System.out.println("Khong tim thay can bo co ten : " + hoTen);
+        System.out.println("Không tìm thấy cán bộ có tên: " + hoTen);
     }
 
     public void hienThiDanhSachCanBo() {
@@ -100,46 +100,46 @@ public class App {
         QLCB qlcb = new QLCB();
 
         while (true) {
-            System.out.println("1. Them moi can bo ");
-            System.out.println("2. Tim kiem theo ho ten ");
-            System.out.println("3. Hien thi danh sach can bo ");
-            System.out.println("4. Thoat");
-            System.out.println("Chon chuc nang: ");
+            System.out.println("1. Thêm mới cán bộ ");
+            System.out.println("2. Tìm kiếm theo họ tên ");
+            System.out.println("3. Hiểnt thị dánh sách cán bộ ");
+            System.out.println("4. Thoát");
+            System.out.println("Chọn chức năng ");
             int choice = scanner.nextInt();
             scanner.nextLine();
 
             switch (choice) {
                 case 1:
-                    System.out.println("Chon loai can bo (1: Cong nhan, 2: Ky su, 3: Nhan vien): ");
+                    System.out.println("Chọn loại cán bộ (1: Công nhân, 2: Kỹ sư, 3: Nhân viên): ");
                     int loaiCanBo = scanner.nextInt();
                     scanner.nextLine();
 
-                    System.out.println("Nhap ho ten : ");
+                    System.out.println("Nhập họ tên : ");
                     String hoTen = scanner.nextLine();
-                    System.out.println("Nhap tuoi: ");
+                    System.out.println("Nhập tuổi : ");
                     int tuoi = scanner.nextInt();
                     scanner.nextLine();
-                    System.out.println("Nhap gioi tinh: ");
+                    System.out.println("Nhập giới tính: ");
                     String gioiTinh = scanner.nextLine();
-                    System.out.println("Nhap dia chi ");
+                    System.out.println("Nhập địa chỉ");
                     String diaChi = scanner.nextLine();
 
                     if (loaiCanBo == 1) {
-                        System.out.print("Nhap bac cong nhan (1-10): ");
+                        System.out.print("Nhập bậc công nhân(1-10): ");
                         int bac = scanner.nextInt();
                         qlcb.themMoiCanBo(new CongNhan(hoTen, tuoi, gioiTinh, diaChi));
                     } else if (loaiCanBo == 2) {
-                        System.out.print("Nhap nganh dao tao ky su: ");
+                        System.out.print("Nhập ngành đào tạo kỹ sư: ");
                         String nganhDaoTao = scanner.nextLine();
                         qlcb.themMoiCanBo(new KySu(hoTen, tuoi, gioiTinh, diaChi));
                     } else if (loaiCanBo == 3) {
-                        System.out.println("Nhap cong viec nhan vien: ");
+                        System.out.println("Nhập công việc nhân viên: ");
                         String congViec = scanner.nextLine();
                         qlcb.themMoiCanBo(new NhanVien(hoTen, tuoi, gioiTinh, diaChi));
                     }
                     break;
                 case 2:
-                    System.out.println("Nhap ho ten can tim : ");
+                    System.out.println("Nhập họ tên cần tìm : ");
                     String tenCanTim = scanner.nextLine();
                     qlcb.timKiemTheoHoTen(tenCanTim);
                     break;
@@ -147,10 +147,10 @@ public class App {
                     qlcb.hienThiDanhSachCanBo();
                     break;
                 case 4:
-                    System.out.println("Thoat khoi chuong trinh.");
+                    System.out.println("Thoát khỏi chương trình .");
                     System.exit(0);
                 default:
-                    System.out.println("Chuc nang khong hop le, Vui long chon chuc nang khac !");
+                    System.out.println("Chức năng không hợp lệ, vui lòng chọn chức năng khác !");
                     break;
             }
         }
