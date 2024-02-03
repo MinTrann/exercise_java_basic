@@ -106,6 +106,7 @@ class QuanLySach {
         for (TaiLieu taiLieu : danhSachTaiLieu) {
             if (taiLieu.getClass().getSimpleName().equals(loai)) {
                 System.out.println(taiLieu.toString());
+
             }
         }
     }
