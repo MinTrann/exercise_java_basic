@@ -109,6 +109,9 @@ class QuanLySach {
             }
         }
     }
+}
+
+public class App {
 
     public static void main(String[] args) {
         QuanLySach quanLySach = new QuanLySach();
@@ -139,7 +142,8 @@ class QuanLySach {
                         String tenTacGia = scanner.nextLine();
                         System.out.print("Nhập số trang: ");
                         int soTrang = scanner.nextInt();
-                        quanLySach.themTaiLieu(new Sach(maTaiLieu, tenNhaXuatBan, soBanPhatHanh, tenTacGia, soTrang));
+                        quanLySach
+                                .themTaiLieu(new Sach(maTaiLieu, tenNhaXuatBan, soBanPhatHanh, tenTacGia, soTrang));
                     } else if (loai.equalsIgnoreCase("TapChi")) {
                         System.out.print("Nhập số phát hành: ");
                         int soPhatHanh = scanner.nextInt();
