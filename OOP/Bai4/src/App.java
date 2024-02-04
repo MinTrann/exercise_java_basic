@@ -1,20 +1,20 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 class Nguoi {
     private String hoTen;
     private int tuoi;
     private String ngheNghiep;
-    private String soCMND;
+    private String CMND;
 
-    // Constructor
-    public Nguoi(String hoTen, int tuoi, String ngheNghiep, String soCMND) {
+    // constructor (hàm khởi tạo)
+    public Nguoi(String hoTen, int tuoi, String ngheNghiep, String CMND) {
         this.hoTen = hoTen;
         this.tuoi = tuoi;
         this.ngheNghiep = ngheNghiep;
-        this.soCMND = soCMND;
+        this.CMND = CMND;
     }
 
-    // Getter method
     public String getHoTen() {
         return hoTen;
     }
@@ -27,27 +27,20 @@ class Nguoi {
         return ngheNghiep;
     }
 
-    public String getSoCMND() {
-        return soCMND;
-    }
-    // Override toString method for displaying information
-
-    @Override
-    public String toString() {
-        return "Họ tên: " + hoTen + ", Tuổi: " + tuoi + ", Nghề nghiệp: " + ngheNghiep + ",  Số CMND: " + soCMND;
+    public String getCMND() {
+        return CMND;
     }
 }
 
 class HoGiaDinh {
     private int soThanhVien;
     private int soNha;
-    private ArrayList<Nguoi> thanhVienList;
+    private ArrayList<Nguoi> thanhVien;
 
-    // Constructor
-    public HoGiaDinh(int soThanhVien, int soNha) {
-        this.soThanhVien = soThanhVien;
+    public HoGiaDinh(int soThanhVien, int soNha, ArrayList<Nguoi> thanhVien) {
         this.soNha = soNha;
-        this.thanhVienList = new ArrayList<>();
+        this.soThanhVien = soThanhVien;
+        this.thanhVien = thanhVien;
     }
 
     public int getSoThanhVien() {
@@ -58,49 +51,41 @@ class HoGiaDinh {
         return soNha;
     }
 
-    public ArrayList<Nguoi> getThanhVienList() {
-        return thanhVienList;
-    }
-
-    // Add person to the family
-    public void addNguoi(Nguoi nguoi) {
-        thanhVienList.add(nguoi);
-    }
-
-    // Override toString method for displaying information
-    @Override
-    public String toString() {
-        StringBuilder info = new StringBuilder("So nha: " + soNha + ", So thanh vien: " + soThanhVien + "\n");
-        for (Nguoi nguoi : thanhVienList) {
-            info.append(nguoi.toString()).append("\n");
-        }
-        return info.toString();
+    public ArrayList<Nguoi> getThanhVien() {
+        return thanhVien;
     }
 }
 
 class KhuPho {
-    private ArrayList<HoGiaDinh> hoGiaDinhList;
+    private ArrayList<HoGiaDinh> danhSachHo;
 
-    // Contructor
     public KhuPho() {
-        this.hoGiaDinhList = new ArrayList<>();
+        danhSachHo = new ArrayList<>();
     }
 
-    // Add family to the neighborhood
-    public void addHoGiaDinh(HoGiaDinh hoGiaDinh) {
-        hoGiaDinhList.add(hoGiaDinh);
+    public void themHoGiaDinh(HoGiaDinh hoGiaDinh) {
+        danhSachHo.add(hoGiaDinh);
     }
 
-    // Display information of all families in the neighborhood
-    public void displayInformation() {
-        for (HoGiaDinh hoGiaDinh : hoGiaDinhList) {
-            System.out.println(hoGiaDinh.toString());
+    public void hienThiThongTinHo() {
+        System.out.println("Thông tin các hộ dân trong khu phố:");
+        for (HoGiaDinh ho : danhSachHo) {
+            System.out.println("So nha: " + ho.getSoNha());
+            System.out.println("So thanh vien: " + ho.getSoThanhVien());
+            System.out.println("Danh sach thanh vien: ");
+            for (Nguoi nguoi : ho.getThanhVien()) {
+                System.out.println("Ho ten: " + nguoi.getHoTen());
+                System.out.println("Tuoi: " + nguoi.getTuoi());
+                System.out.println("Nghe nghiep: " + nguoi.getNgheNghiep());
+                System.out.println("So CMND: " + nguoi.getCMND());
+            }
+            System.out.println();
         }
     }
 }
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Scanner scanner = new Scanner(System.in);
     }
 }
