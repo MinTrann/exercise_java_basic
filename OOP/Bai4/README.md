@@ -1,18 +1,37 @@
-## Getting Started
+Class Nguoi :
+Thuộc tính : Mỗi đối tượng 'Nguoi' đều có 4 thuộc tính ('hoTen','tuoi','ngheNghiep','Cmnd') để lưu trữ thông tin về mỗi cá nhân.
+Constructor(Hàm khởi tạo): Thiết lập các giá trị ban đầu cho các thuộc tính(biến thành viên) của đối tượng.
+Đặt điểm: Giống với tên lớp ,Không có kiểu trả về(được goi khi đối tượng được khởi tạo và nó tự động trả về
+đối tượng đã được khởi tạo),Thiết lập giá trị ban đầu.
+bt707148075617 192366
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+    fewiojfeoijfqoijfqfjfgioqjfjqfjfuihiufhgigdhi9fhuhf
+    fqwufhqfojhfhiouhf]fqwfuoh
+    fhiuffj
+    qfoihfq
+    ]flqjkff
+    qfojqfq
+    fqwfojqfopjqopjfq
+    ừpojfqiopjrfpojf
+    fgpiotjjfjfqwiojfjr
+    fjfjuifjfjrufqfjkf
+    fpijfjfijrjfjrifjrjgiohfjrjijfjrujfjriujfjrjfjriojeeeeeeeeeeeeeeeeefjfewfijjfoijrjfrfffeoifjjjjjjjjjffjjfjfjfoifoijhfwfhehwdofhhjsadkfgjhkhfsadjfhruysadfkjhsdfkjsahfkjhrweiuysdfkjhsadfkjlhfskaljfhskljadhfkjshfaksjhfjksahdfwiuery
+    f'pấihfsahjf
+    fasifh ạ
+    [fjfjqfpjjqf
+    qfqjfqw
+    fjqfpiojfjqwfjffffjfffffjfjfjffffffffffffffjfjffffjfjfffffffjjjjjjjjjjjfjfjggffgfjkfffjfiopjcfvijopfjjfjfiojjfeiojfyfiuhhfhrhfufhefhfijfowfjjoijffejffjiofoijhhv]fwepoijwfoijfwfßwjoiwfjffiojffjiojfjjfoijfjoihfihhfuhhfoiohrihhffjweoijjfoijjfhjufrfeiojfioewrffjurojjpoidfffoijruffjoiuhfhriwoejrjfjhfrjjjrthjiuruwefijfjowieurtuwefoijfjwfhfoihfjfjfhfjfoihfjffjjfoijufwfjfuwfjfoiufjoiwurffwfwfw
+    ưeffwe
+    fwef
+    ừ
+    w
+    fw
+    fw
+    ffwfjgw
+    fwfopjwfgjwopogjwfgjgpojfgjpogiufyhrfhffhhfyriuhghuyirhfhurhyy
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    ừựefwjfwefjfjfhjfhhfhiuhfhiuhyfhiuhfyfhiuwhyfhryfeiuhhyfrhfhryfiuhrhfyrjfhryfhryfhrhfhiuuehrhfjriuhfhryfuhfwhefryfhryewifuhhfjfuhfyriuhfwhufiifuhwefwfeiuhwfjkfouhfhfjfohhfryfhryfhfyrhhfwefhfhrhfhrhfouhiphfjuhfhfiouhfhhfriuhryyfrhyrohjfiuhrhfhrhfiuhrjfhrhfjrhrhfrufhrufohiufhriyffrheffhrrufjrufjewfoihjfgweoihrfohij
+    fjuhfwe
+    ưefhfwe
+    fweffijfjfjufjffjfjiowfghjfruffjjjjß
