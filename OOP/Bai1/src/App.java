@@ -18,7 +18,7 @@ class CanBo {
     }
 
     public String getThongTin() {
-        return "Họ tên: " + hoTen + ",Tuổi: " + tuoi + ",Gioi tinh: " + gioiTinh + ",Đại chỉ: " + diachi;
+        return "Ho tên: " + hoTen + ",Tuổi: " + tuoi + ",Gioi tinh: " + gioiTinh + ",Dia chỉ: " + diachi;
     }
 }
 
@@ -101,20 +101,20 @@ public class App {
 
         while (true) {
             System.out.println("1. Thêm mới cán bộ ");
-            System.out.println("2. Tìm kiếm theo họ tên ");
+            System.out.println("2. Tìm kiếm theo ho tên ");
             System.out.println("3. Hiểnt thị dánh sách cán bộ ");
             System.out.println("4. Thoát");
-            System.out.println("Chọn chức năng ");
+            System.out.println("Chon chức năng ");
             int choice = scanner.nextInt();
             scanner.nextLine();
 
             switch (choice) {
                 case 1:
-                    System.out.println("Chọn loại cán bộ (1: Công nhân, 2: Kỹ sư, 3: Nhân viên): ");
+                    System.out.println("Chon loại cán bộ (1: Công nhân, 2: Kỹ sư, 3: Nhân viên): ");
                     int loaiCanBo = scanner.nextInt();
                     scanner.nextLine();
 
-                    System.out.println("Nhập họ tên : ");
+                    System.out.println("Nhập ho tên : ");
                     String hoTen = scanner.nextLine();
                     System.out.println("Nhập tuổi : ");
                     int tuoi = scanner.nextInt();
@@ -139,7 +139,7 @@ public class App {
                     }
                     break;
                 case 2:
-                    System.out.println("Nhập họ tên cần tìm : ");
+                    System.out.println("Nhập ho tên cần tìm : ");
                     String tenCanTim = scanner.nextLine();
                     qlcb.timKiemTheoHoTen(tenCanTim);
                     break;
@@ -147,10 +147,10 @@ public class App {
                     qlcb.hienThiDanhSachCanBo();
                     break;
                 case 4:
-                    System.out.println("Thoát khỏi chương trình .");
+                    System.out.println("Thoát khoi chương trình .");
                     System.exit(0);
                 default:
-                    System.out.println("Chức năng không hợp lệ, vui lòng chọn chức năng khác !");
+                    System.out.println("Chức năng không hợp lệ, vui lòng chon chức năng khác !");
                     break;
             }
         }

@@ -1,0 +1,15 @@
+D:\Learn_Java\Bai_TapJava\vidu\bin\Debug\net8.0\vidu.exe
+D:\Learn_Java\Bai_TapJava\vidu\bin\Debug\net8.0\vidu.deps.json
+D:\Learn_Java\Bai_TapJava\vidu\bin\Debug\net8.0\vidu.runtimeconfig.json
+D:\Learn_Java\Bai_TapJava\vidu\bin\Debug\net8.0\vidu.dll
+D:\Learn_Java\Bai_TapJava\vidu\bin\Debug\net8.0\vidu.pdb
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\vidu.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\vidu.AssemblyInfoInputs.cache
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\vidu.AssemblyInfo.cs
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\vidu.csproj.CoreCompileInputs.cache
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\vidu.sourcelink.json
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\vidu.dll
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\refint\vidu.dll
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\vidu.pdb
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\vidu.genruntimeconfig.cache
+D:\Learn_Java\Bai_TapJava\vidu\obj\Debug\net8.0\ref\vidu.dll
