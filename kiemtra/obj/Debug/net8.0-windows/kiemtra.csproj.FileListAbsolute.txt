@@ -1,0 +1,15 @@
+D:\Learn_Java\Bai_TapJava\kiemtra\bin\Debug\net8.0-windows\kiemtra.exe
+D:\Learn_Java\Bai_TapJava\kiemtra\bin\Debug\net8.0-windows\kiemtra.deps.json
+D:\Learn_Java\Bai_TapJava\kiemtra\bin\Debug\net8.0-windows\kiemtra.runtimeconfig.json
+D:\Learn_Java\Bai_TapJava\kiemtra\bin\Debug\net8.0-windows\kiemtra.dll
+D:\Learn_Java\Bai_TapJava\kiemtra\bin\Debug\net8.0-windows\kiemtra.pdb
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\kiemtra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\kiemtra.AssemblyInfoInputs.cache
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\kiemtra.AssemblyInfo.cs
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\kiemtra.csproj.CoreCompileInputs.cache
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\kiemtra.sourcelink.json
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\kiemtra.dll
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\refint\kiemtra.dll
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\kiemtra.pdb
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\kiemtra.genruntimeconfig.cache
+D:\Learn_Java\Bai_TapJava\kiemtra\obj\Debug\net8.0-windows\ref\kiemtra.dll
