@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vidu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7160323b4ff472e7c9e089f143616a79bd8082f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a36273e10402508d34fa8fca82202b839162d4f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("vidu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vidu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
